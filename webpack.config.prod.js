@@ -7,7 +7,6 @@ const commonConfig = require("./webpack.config.common");
 // @ts-ignore
 module.exports = merge(commonConfig, {
 	mode: "production",
-	devtool: "source-map",
 	plugins: [
 		new BundleAnalyzerPlugin({
 			analyzerMode: "static",
